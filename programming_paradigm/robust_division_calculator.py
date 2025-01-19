@@ -4,7 +4,7 @@ def safe_divide(numerator, denominator):
         numerator = float(numerator)
         denominator = float(denominator)
         answer = numerator/denominator
-        return f"The result from dividing {numerator} by {denominator} is:{answer} "
+        return f"The result of the division is:{answer} "
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     
